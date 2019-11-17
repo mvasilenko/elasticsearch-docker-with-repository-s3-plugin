@@ -1,9 +1,9 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:6.6.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.8.3
 
 ARG ACCESS_KEY
 ARG SECRET_KEY
 ARG ENDPOINT
-ARG ES_VERSION=6.6.0
+ARG ES_VERSION=6.8.3
 
 ARG PACKAGES="net-tools lsof"
 
